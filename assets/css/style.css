@@ -27,58 +27,94 @@ body{
     width: 44em;
     height: 44em;
     background-size: cover;
-    }
-    #img1 {
-        background-image: url("../images/wmts1.png");
-        position: fixed;
-        animation: slideOut 3s ease;
-        animation-delay: 2s;
-        animation-fill-mode: forwards;
+}
+#img1 {
+    background-image: url("../images/wmts1.png");
+    position: fixed;
+    animation: slideOut 3s ease;
+    animation-delay: 2s;
+    animation-fill-mode: forwards;
     }
     @keyframes slideOut {
-        0% {left: 5%; opacity: 1}
+        0% {left: 0%; opacity: 1}
+        50% {left: -25; opacity: .8}
         100% {left: -52%; opacity: 0;}
     }
-    #img2 {
-        background-image: url("../images/wmts2.png");
-        position: fixed;
-        right: -70%;
-        animation: slideIn 10s ease-in-out 2s;
-        animation-fill-mode: forwards;
-    }
+#img2 {
+    background-image: url("../images/wmts2.png");
+    position: fixed;
+    right: -70%;
+    animation: slideIn 8s ease-in-out 2s;
+    animation-fill-mode: forwards;
+}
     @keyframes slideIn {
         0% {right: -56%; opacity: 0}
         50% {right: 15%; opacity: 1;}
         100% {right: 15%; opacity: 1;}
         /* 100% {right: 20%; opacity: 1} */
     }
-    #img3 {
-        background-image: url("../images/wmts3\(alt\).png");
-    }
-    #img4 {
-        background-image: url("../images/wmts4.png");
-    }
-    #img5 {
-        background-image: url("../images/wmts5.png");
-    }
-    #img6 {
-        background-image: url("../images/wmts6.png");
-    }
-    #img78 {
-        background-image: url("../images/wmts7&8.png");
-        position: absolute;
+#img3 {
+    background-image: url("../images/wmts3\(alt\).png");
+}
+#img4 {
+    background-image: url("../images/wmts4.png");
+}
+#img5 {
+    background-image: url("../images/wmts5.png");
+}
+#img6 {
+    background-image: url("../images/wmts6.png");
+}
+#img78 {
+    background-image: url("../images/wmts7&8.png");
+    position: absolute;
     right: -8em;
-        background-size: cover;
-        width: 1600px;
-        height: 800px;
-        overflow-x: scroll
-    }
-    /* #img8 {
-        background-image: url("../images/wmts8.png");
-    }
-    #img9 {
-        background-image: url("../images/wmts9.png");
-    }
-    #img10 {
-        background-image: url("../images/wmts10.png");
-    } */
+    background-size: cover;
+    width: 1600px;
+    height: 800px;
+    overflow-x: scroll
+}
+#seven8btn {
+    position: relative;
+    left: 80em;
+    top: 7em;
+}
+#img9 {
+    background-image: url("../images/wmts9.png");
+}
+#img10 {
+    background-image: url("../images/wmts10.png");
+}
+#img11 {
+    background-image: url("../images/wmts11.png");
+}
+#img12 {
+    background-image: url("../images/wmts12.png");
+}
+#img13z {
+    background-image: url("../images/wmts13\(0\).png");
+}
+#img13o {
+    background-image: url("../images/wmts13\(1\).png");
+}
+#img13tw {
+    background-image: url("../images/wmts13\(2\).png");
+}
+#img13th {
+    background-image: url("../images/wmts13\(3\).png");
+}
+#img14 {
+    background-image: url("../images/wmts14.png");
+}
+#img14f {
+    background-image: url("../images/wmts14\(flakes\).png");
+    position: fixed;
+    bottom: 10em;
+}
+#allPages14 {
+    background-color: white;
+}
+#flakeFall {
+    height: 100em;
+    background: linear-gradient(white, black);
+}
