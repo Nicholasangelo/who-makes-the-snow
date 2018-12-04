@@ -7,6 +7,7 @@ $(document).ready(function () {
     $(".oneEight").css("display", "none");
     $(".nineTwel").css("display", "none");
     $(".thirFour").css("display", "none");
+    $("#feighteen").css("display", "none");
 
 
 });
@@ -49,3 +50,13 @@ $("#twelBtn").on("click", function (event) {
     AOS.init();
 })
 
+$("#globe2").on("click", function(event) {
+    event.preventDefault();
+    $(".thirFour").css("display", "none");
+    $("#feighteen").css("display", "block");
+    // $('.carousel').carousel();
+})
+// when the carousel ends
+// $('#myCarousel').on('slide.bs.carousel', function () {
+    // do something…
+//   })

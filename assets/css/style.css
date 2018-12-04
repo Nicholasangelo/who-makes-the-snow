@@ -109,7 +109,7 @@ body{
 #img14f {
     background-image: url("../images/wmts14\(flakes\).png");
     position: fixed;
-    bottom: 10em;
+    bottom: 0em;
 }
 #allPages14 {
     background-color: white;
@@ -117,4 +117,17 @@ body{
 #flakeFall {
     height: 100em;
     background: linear-gradient(white, black);
+}
+#globe2 {
+    background-image: url('../images/globeCover.png');
+    width: 44em;
+    height: 44em;
+    background-size: cover;
+    position: absolute;
+    animation: pulse2 2s infinite;
+    animation-direction: alternate;
+}
+@keyframes pulse2 {
+    0% {opacity:.5}
+    100% {opacity: 1;}
 }
