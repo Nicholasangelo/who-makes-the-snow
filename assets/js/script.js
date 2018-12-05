@@ -12,6 +12,8 @@ $(document).ready(function () {
     $("#img16").css("display", "none");
     $("#img17").css("display", "none");
     $("#img18").css("display", "none");
+    $("#img190").css("display", "none");
+    $("#img191").css("display", "none");
 
 
 });
@@ -78,5 +80,6 @@ $("#img17").on("click", function(event) {
 $("#img18").on("click", function(event) {
     event.preventDefault();
 $("#img18").css("display", "none");
-$("#img19").css("display", "block");
+$("#img190").delay("fast").fadeIn();
+$("#img191").delay("slow").fadeIn();
 });

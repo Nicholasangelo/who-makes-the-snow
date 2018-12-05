@@ -149,7 +149,13 @@ body{
 #img18 {
     background-image: url("../images/wmts18.png");
 }
-#img19 {
+#img190 {
+    background-image: url("../images/wmts19\(0)\.png");
+    height: 100vh;
+    position: absolute;
+}
+#img191 {
     background-image: url("../images/wmts19.png");
     height: 100vh;
+    position: absolute;
 }
