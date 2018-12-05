@@ -2,15 +2,17 @@ body{
     background-color: black;
 }
 .img {
-    width: 44em;
-    height: 44em;
-    background-size: cover;
+    width: 48em;
+    height: 48em;
+    background-size: contain;
+    background-repeat: no-repeat;
 }
 #clickGlobe {
     background-image: url('../images/globeCover.png');
-    width: 44em;
-    height: 44em;
-    background-size: cover;
+    width: 48em;
+    height: 48em;
+    background-size: contain;
+    background-repeat: no-repeat;
     position: fixed;
     animation: pulse 2s infinite;
     animation-direction: alternate;
@@ -24,9 +26,10 @@ body{
 }
 #cover {
     background-image: url('../images/wmts0Cover.png');
-    width: 44em;
-    height: 44em;
-    background-size: cover;
+    width: 48em;
+    height: 48em;
+    background-size: contain;
+    background-repeat: no-repeat;
 }
 #img1 {
     background-image: url("../images/wmts1.png");
@@ -120,9 +123,10 @@ body{
 }
 #globe2 {
     background-image: url('../images/globeCover.png');
-    width: 44em;
-    height: 44em;
-    background-size: cover;
+    width: 48em;
+    height: 48em;
+    background-size: contain;
+    background-repeat: no-repeat;
     position: absolute;
     animation: pulse2 2s infinite;
     animation-direction: alternate;
@@ -130,4 +134,22 @@ body{
 @keyframes pulse2 {
     0% {opacity:.5}
     100% {opacity: 1;}
+}
+#img15 {
+    background-image: url("../images/wmts15.png");
+}
+#img16 {
+    background-image: url("../images/wmts16.png");
+    width:46.5em;
+}
+#img17 {
+    background-image: url("../images/wmts17.png");
+    width:47em;
+}
+#img18 {
+    background-image: url("../images/wmts18.png");
+}
+#img19 {
+    background-image: url("../images/wmts19.png");
+    height: 100vh;
 }

@@ -7,7 +7,11 @@ $(document).ready(function () {
     $(".oneEight").css("display", "none");
     $(".nineTwel").css("display", "none");
     $(".thirFour").css("display", "none");
-    $("#feighteen").css("display", "none");
+    $("#carouselExampleControls").css("display", "none");
+    $("#img15").css("display", "none");
+    $("#img16").css("display", "none");
+    $("#img17").css("display", "none");
+    $("#img18").css("display", "none");
 
 
 });
@@ -48,15 +52,31 @@ $("#twelBtn").on("click", function (event) {
     $(".nineTwel").css("display", "none");
     $(".thirFour").css("display", "block");
     AOS.init();
-})
+});
 
 $("#globe2").on("click", function(event) {
     event.preventDefault();
     $(".thirFour").css("display", "none");
-    $("#feighteen").css("display", "block");
-    // $('.carousel').carousel();
-})
-// when the carousel ends
-// $('#myCarousel').on('slide.bs.carousel', function () {
-    // do something…
-//   })
+    $("#img15").delay("fast").fadeIn();
+
+});
+$("#img15").on("click", function(event) {
+    event.preventDefault();
+    $("#img15").css("display", "none");
+    $("#img16").delay("fast").fadeIn();
+});
+$("#img16").on("click", function(event) {
+    event.preventDefault();
+$("#img16").css("display", "none");
+$("#img17").delay("fast").fadeIn();
+});
+$("#img17").on("click", function(event) {
+    event.preventDefault();
+    $("#img17").css("display", "none");
+    $("#img18").delay("fast").fadeIn();
+});
+$("#img18").on("click", function(event) {
+    event.preventDefault();
+$("#img18").css("display", "none");
+$("#img19").css("display", "block");
+});
