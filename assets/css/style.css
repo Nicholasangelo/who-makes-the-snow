@@ -35,7 +35,7 @@ body{
     background-image: url("../images/wmts1.png");
     position: fixed;
     animation: slideOut 3s ease;
-    animation-delay: 2s;
+    animation-delay: 3s;
     animation-fill-mode: forwards;
     }
     @keyframes slideOut {
@@ -52,8 +52,8 @@ body{
 }
     @keyframes slideIn {
         0% {right: -56%; opacity: 0}
-        /* 50% {right: 15%; opacity: 1;} */
-        100% {right: 80%; opacity: 0;}
+        100% {right: 15%; opacity: 1;}
+        /* 100% {right: 80%; opacity: 0;} */
         /* 100% {right: 20%; opacity: 1} */
     }
 #img3 {
@@ -171,14 +171,24 @@ body{
 #img18 {
     background-image: url("../images/wmts18.png");
 }
-#img190 {
-    background-image: url("../images/wmts19\(0)\.png");
-    height: 100vh;
+#img191 {
+    background-image: url("../images/wmts19\(1)\.png");
+    /* height: 100vh; */
     position: absolute;
 }
-#img191 {
+#img192 {
+    background-image: url("../images/wmts19\(2)\.png");
+    /* height: 100vh; */
+    position: absolute;
+}
+#img193 {
+    background-image: url("../images/wmts19\(3)\.png");
+    /* height: 100vh; */
+    position: absolute;
+}
+#img19 {
     background-image: url("../images/wmts19.png");
-    height: 100vh;
+    /* height: 100vh; */
     position: absolute;
 }
 #img20 {
@@ -206,6 +216,8 @@ body{
     width: 71em;
     background-size: contain;
     background-repeat: no-repeat;
+    position: absolute;
+    right: 0em;
 }
 .clickable:hover {
     cursor: pointer;

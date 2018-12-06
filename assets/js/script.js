@@ -12,8 +12,10 @@ $(document).ready(function () {
     $("#img16").css("display", "none");
     $("#img17").css("display", "none");
     $("#img18").css("display", "none");
-    $("#img190").css("display", "none");
+    $("#img19").css("display", "none");
     $("#img191").css("display", "none");
+    $("#img192").css("display", "none");
+    $("#img193").css("display", "none");
     $("#img20").css("display", "none");
     $(".twents").css("display", "none");
 
@@ -87,13 +89,17 @@ $("#img17").on("click", function (event) {
 $("#img18").on("click", function (event) {
     event.preventDefault();
     $("#img18").css("display", "none");
-    $("#img190").delay("fast").fadeIn();
-    $("#img191").delay("2000").fadeIn();
+    $("#img191").delay("fast").fadeIn();
+    $("#img192").delay("2000").fadeIn();
+    $("#img193").delay("4000").fadeIn();
+    $("#img19").delay("5000").fadeIn();
 });
-$("#img191").on("click", function (event) {
+$("#img19").on("click", function (event) {
     event.preventDefault();
     $("#img191").css("display", "none");
-    $("#img190").css("display", "none");
+    $("#img19").css("display", "none");
+    $("#img192").css("display", "none");
+    $("#img193").css("display", "none");
     $("#img20").fadeIn("3000").animate({
         height: "50em",
         width: "50em"
