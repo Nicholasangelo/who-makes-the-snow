@@ -47,13 +47,13 @@ body{
     background-image: url("../images/wmts2.png");
     position: fixed;
     right: -70%;
-    animation: slideIn 8s ease-in-out 2s;
+    animation: slideIn 6s ease-in-out 2s;
     animation-fill-mode: forwards;
 }
     @keyframes slideIn {
         0% {right: -56%; opacity: 0}
-        50% {right: 15%; opacity: 1;}
-        100% {right: 15%; opacity: 1;}
+        /* 50% {right: 15%; opacity: 1;} */
+        100% {right: 80%; opacity: 0;}
         /* 100% {right: 20%; opacity: 1} */
     }
 #img3 {
@@ -82,6 +82,28 @@ body{
     left: 80em;
     top: 7em;
 }
+#twelBtn {
+    position: absolute;
+    top: 10.5em;
+    left: 22.5em;
+    /* box-shadow: inset 1px 0px 20px 7px floralwhite; */
+    height: 4em;
+    width: 4em;
+    border-radius: 50%;
+    background: none;
+    border: none;
+    animation: pulseTwel 2s infinite;
+    animation-direction: alternate;
+}
+    @keyframes pulseTwel {
+        0% { box-shadow: inset 1px 0 20px 7px floralwhite}
+        50% {box-shadow: inset.5px 0px 10px 3.5px floralwhite}
+        100% {box-shadow: inset 1px 0px 20px 7px floralwhite}
+    }
+#twelBtn:hover {
+    cursor: pointer;
+}
+    
 #img9 {
     background-image: url("../images/wmts9.png");
 }
@@ -158,4 +180,45 @@ body{
     background-image: url("../images/wmts19.png");
     height: 100vh;
     position: absolute;
+}
+#img20 {
+    background-image: url("../images/wmts20.png");
+    position: absolute;
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 20em;
+    height: 20em;
+}
+#img21 {
+    background-image: url("../images/wmts21.png");
+}
+#img22 {
+    background-image: url("../images/wmts22.png");
+    
+}
+#img23 {
+    background-image: url("../images/wmts23.png");
+    
+}
+#img2425 {
+    background-image: url("../images/wmts24&25.png");
+    height: 36em;
+    width: 71em;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+.clickable:hover {
+    cursor: pointer;
+}
+#globe2:hover {
+    cursor: pointer;
+}
+.oneEight:hover{
+    cursor: s-resize;
+}
+.nineTwel:hover {
+    cursor: s-resize;
+}
+.thirFour:hover{
+    cursor: s-resize;
 }

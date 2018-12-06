@@ -14,7 +14,8 @@ $(document).ready(function () {
     $("#img18").css("display", "none");
     $("#img190").css("display", "none");
     $("#img191").css("display", "none");
-
+    $("#img20").css("display", "none");
+    $(".twents").css("display", "none");
 
 });
 function showAllPages() {
@@ -24,7 +25,13 @@ function showAllPages() {
         $("#img2").css("display", "none");;
         $("#clickGlobe").css("display", "none");
         $(".oneEight").css("display", "block");
-    }, 12000);
+    }, 10000);
+}
+function showFinalPages() {
+    setTimeout(function () {
+        $(".twents").css("display", "block");
+        $("#img20").css("display", "none");
+    }, 6000);
 }
 
 $("#clickGlobe").on("click", function (event) {
@@ -56,30 +63,41 @@ $("#twelBtn").on("click", function (event) {
     AOS.init();
 });
 
-$("#globe2").on("click", function(event) {
+$("#globe2").on("click", function (event) {
     event.preventDefault();
     $(".thirFour").css("display", "none");
     $("#img15").delay("fast").fadeIn();
 
 });
-$("#img15").on("click", function(event) {
+$("#img15").on("click", function (event) {
     event.preventDefault();
     $("#img15").css("display", "none");
     $("#img16").delay("fast").fadeIn();
 });
-$("#img16").on("click", function(event) {
+$("#img16").on("click", function (event) {
     event.preventDefault();
-$("#img16").css("display", "none");
-$("#img17").delay("fast").fadeIn();
+    $("#img16").css("display", "none");
+    $("#img17").delay("fast").fadeIn();
 });
-$("#img17").on("click", function(event) {
+$("#img17").on("click", function (event) {
     event.preventDefault();
     $("#img17").css("display", "none");
     $("#img18").delay("fast").fadeIn();
 });
-$("#img18").on("click", function(event) {
+$("#img18").on("click", function (event) {
     event.preventDefault();
-$("#img18").css("display", "none");
-$("#img190").delay("fast").fadeIn();
-$("#img191").delay("slow").fadeIn();
+    $("#img18").css("display", "none");
+    $("#img190").delay("fast").fadeIn();
+    $("#img191").delay("2000").fadeIn();
 });
+$("#img191").on("click", function (event) {
+    event.preventDefault();
+    $("#img191").css("display", "none");
+    $("#img190").css("display", "none");
+    $("#img20").fadeIn("3000").animate({
+        height: "50em",
+        width: "50em"
+    },"slow");
+    $("body").fadeIn("3000").css("background-color", "white");
+    showFinalPages();
+})
