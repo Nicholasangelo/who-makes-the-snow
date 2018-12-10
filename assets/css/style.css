@@ -150,12 +150,12 @@ body{
     background-size: contain;
     background-repeat: no-repeat;
     position: absolute;
-    animation: pulse2 2s infinite;
+    /* animation: pulse2 2s infinite;
     animation-direction: alternate;
 }
 @keyframes pulse2 {
     0% {opacity:.5}
-    100% {opacity: 1;}
+    100% {opacity: 1;} */
 }
 #img15 {
     background-image: url("../images/wmts15.png");
@@ -219,20 +219,20 @@ body{
     position: absolute;
     right: 0em;
 }
-/* #again {
-    position: absolute;
-    left: 47em;
-    bottom: 10em;
+#again {
+   padding-top: 6em;
 }
 #gumLink {
-    position: absolute;
-    left: 22em;
+    padding-top: 7em;
+    text-align: center;
 }
 #githubRepo{
-    float: left;
+}
+.linkText {
     position: absolute;
-    bottom: 2em;
-} */
+    right: 14.8em;
+    font-size: 2em;
+}
 .clickable:hover {
     cursor: pointer;
 }
@@ -246,5 +246,8 @@ body{
     cursor: s-resize;
 }
 .thirFour:hover{
+    cursor: s-resize;
+}
+.twents:hover{
     cursor: s-resize;
 }

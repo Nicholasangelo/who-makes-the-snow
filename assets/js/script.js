@@ -108,8 +108,28 @@ $("#img19").on("click", function (event) {
     $("body").fadeIn("3000").css("background-color", "white");
     showFinalPages();
 })
-// $("#img2425").on("click", function() {
-//     $("#img2425").css("display", "none");
-//     $(".twents").css("display", "none");
-//     $("#lastPage").css("display", "block");
-// })
+$("#img2425").on("click", function() {
+    $("#img2425").css("display", "none");
+    $(".twents").css("display", "none");
+    $("#lastPage").css("display", "block");
+    
+    $("#againText").css("display", "none");
+    $("#repoText").css("display", "none");
+    $("#artistText").css("display", "none");
+
+    $("#gumLink").hover(function() {
+        $("#artistText").css("display", "block");
+        $("#repoText").css("display", "none");
+        $("#againText").css("display", "none");
+    })
+    $("#githubRepo").hover(function() {
+        $("#repoText").css("display", "block");
+        $("#artistText").css("display", "none");
+        $("#againText").css("display", "none");
+    })
+    $("#again").hover(function() {
+        $("#againText").css("display", "block");
+        $("#repoText").css("display", "none");
+        $("#artistText").css("display", "none");
+    })
+})
