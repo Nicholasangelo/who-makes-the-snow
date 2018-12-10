@@ -18,6 +18,7 @@ $(document).ready(function () {
     $("#img193").css("display", "none");
     $("#img20").css("display", "none");
     $(".twents").css("display", "none");
+    $("#lastPage").css("display", "none");
 
 });
 function showAllPages() {
@@ -92,7 +93,7 @@ $("#img18").on("click", function (event) {
     $("#img191").delay("fast").fadeIn();
     $("#img192").delay("2000").fadeIn();
     $("#img193").delay("4000").fadeIn();
-    $("#img19").delay("5000").fadeIn();
+    $("#img19").delay("4500").fadeIn();
 });
 $("#img19").on("click", function (event) {
     event.preventDefault();
@@ -107,3 +108,8 @@ $("#img19").on("click", function (event) {
     $("body").fadeIn("3000").css("background-color", "white");
     showFinalPages();
 })
+// $("#img2425").on("click", function() {
+//     $("#img2425").css("display", "none");
+//     $(".twents").css("display", "none");
+//     $("#lastPage").css("display", "block");
+// })

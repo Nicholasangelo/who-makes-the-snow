@@ -144,7 +144,7 @@ body{
     background: linear-gradient(white, black);
 }
 #globe2 {
-    background-image: url('../images/globeCover.png');
+    background-image: url('../images/santasHouse.png');
     width: 48em;
     height: 48em;
     background-size: contain;
@@ -219,6 +219,20 @@ body{
     position: absolute;
     right: 0em;
 }
+/* #again {
+    position: absolute;
+    left: 47em;
+    bottom: 10em;
+}
+#gumLink {
+    position: absolute;
+    left: 22em;
+}
+#githubRepo{
+    float: left;
+    position: absolute;
+    bottom: 2em;
+} */
 .clickable:hover {
     cursor: pointer;
 }
