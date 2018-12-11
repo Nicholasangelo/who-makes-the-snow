@@ -30,7 +30,9 @@ ___
 
 
 Created by Nicholas Angelo Batten
+
 [Portfolio @ Nicholasangelo.github.io](https://nicholasangelo.github.io)
+
 [On Github HERE](https://github.com/Nicholasangelo)
 
 ©2018 Nicholas Angelo Batten Full Stack Developer 2018
