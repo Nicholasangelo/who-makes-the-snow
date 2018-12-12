@@ -46,13 +46,14 @@ body{
 #img2 {
     background-image: url("../images/wmts2.png");
     position: fixed;
-    right: -70%;
+    right: -80%;
+    opacity: 0;
     animation: slideIn 6s ease-in-out 2s;
     animation-fill-mode: forwards;
 }
     @keyframes slideIn {
         0% {right: -56%; opacity: 0}
-        100% {right: 15%; opacity: 1;}
+        100% {right: 13%; opacity: 1;}
         /* 100% {right: 80%; opacity: 0;} */
         /* 100% {right: 20%; opacity: 1} */
     }
@@ -213,11 +214,20 @@ body{
 #img2425 {
     background-image: url("../images/wmts24&25.png");
     height: 36em;
-    width: 71em;
+    width: 66em;
     background-size: contain;
     background-repeat: no-repeat;
     position: absolute;
     right: 0em;
+}
+#againImg{
+    height: 210px
+}
+#githubImg {
+    height: 400px
+}
+#artImg{
+    height: 200px
 }
 #again {
    padding-top: 6em;
@@ -229,9 +239,10 @@ body{
 #githubRepo{
 }
 .linkText {
-    position: absolute;
-    right: 14.8em;
     font-size: 2em;
+}
+#linkScripts{
+    text-align: center;
 }
 .clickable:hover {
     cursor: pointer;
@@ -251,3 +262,48 @@ body{
 .twents:hover{
     cursor: s-resize;
 }
+
+@media only screen and (max-width: 768px) {
+.img {
+    width: 30em;
+    height: 30em;
+}
+#clickGlobe {
+    width: 30em;
+    height: 30em;
+}
+#againImg{
+    height: 75px;
+}
+#githubImg {
+    height: 100px;
+}
+#artImg{
+    height: 50px;
+}
+#githubRepo{
+    left: 3em;
+}
+}
+
+@media only screen and (max-width: 560px) {
+body {
+    padding-top: 7em;
+}
+.img {
+    width: 24em;
+    height: 26em;
+}
+#clickGlobe {
+    width: 24em;
+    height: 26em;
+}
+#img2425{
+    right: -43em;
+    overflow-x: scroll;
+}
+}
+
+@media only screen and (min-width: 992px) {
+}
+
