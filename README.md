@@ -20,6 +20,7 @@ ___
 ## The Web Application
 
 *Who Makes the Snow?* is an animated story book created by Nicholas Angelo Batten for the 2018 Christmas Season using HTML, CSS, Javascript and jQuery.  The on page animations are a combination of CSS and jQuery styles, and the animated transitions while scrolling were created using [AOS](https://michalsnik.github.io/aos/) or "Animate On Scroll" Library.
+
 Created by Nicholas Angelo Batten
 # Thanks for coming by and I hope you enjoyed your stay
 
