@@ -275,6 +275,11 @@ body{
 .twents:hover{
     cursor: s-resize;
 }
+.lastPageLinkText {
+    font-family: helvetica;
+    color: mediumvioletred;
+    font-size: xx-large;
+}
 
 @media only screen and (max-width: 768px) {
 .img {
