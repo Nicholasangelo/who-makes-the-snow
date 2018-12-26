@@ -221,22 +221,35 @@ body{
     right: 0em;
 }
 #againImg{
-    height: 210px
+    height: 225px
 }
 #githubImg {
-    height: 400px
+    height: 200px
 }
 #artImg{
     height: 200px
 }
+.finalPageLinks {
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
 #again {
-   padding-top: 6em;
+    background-image: url('../images/santaLump.svg');
+    background-size: cover;
+    background-position-x: center;
+    left: 54em;
+  
 }
 #gumLink {
-    padding-top: 7em;
+    background-image: url('../images/pot.jpg');
     text-align: center;
+    left: 29em;
 }
-#githubRepo{
+#githubImg{
+    background-image: url('../images/github.jpeg');
 }
 .linkText {
     font-size: 2em;
@@ -275,15 +288,15 @@ body{
 #againImg{
     height: 75px;
 }
-#githubImg {
+/* #githubImg {
     height: 100px;
 }
 #artImg{
     height: 50px;
 }
 #githubRepo{
-    left: 3em;
-}
+    left: 3em; */
+/* } */
 }
 
 @media only screen and (max-width: 560px) {
