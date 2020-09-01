@@ -33,4 +33,4 @@ ___
 
 [On Github HERE](https://github.com/Nicholasangelo)
 
-©2018 Nicholas Angelo Batten Full Stack Developer 2018
+©2018 Nicholas Angelo Batten Full Stack Javascript Developer 2018
